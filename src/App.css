@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css?family=PT+Sans');
+
+*, *:after, *:before { -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
+body, html { font-size: 100%; padding: 0; margin: 0;}
+
+
+body {
+    font-family: 'PT Sans', sans-serif;
+    color: #fff;
+    background: #333;
+}
+
+body {
+	overflow-y: scroll;
+	background: #333;
+}
+
+html, body, 
+.container {
+	position: relative;
+	width: 100%;
+	height: 100%;
+}
