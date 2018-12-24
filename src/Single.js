@@ -33,7 +33,7 @@ class Single extends Component {
         return(
             <main className='main-single'>
                 <div className='arrow'>
-                    <Link to='/'><img src={arrow} alt='arrow' width='25px' height='25px;'></img></Link>
+                    <Link to='/translatorkit'><img src={arrow} alt='arrow' width='25px' height='25px;'></img></Link>
                 </div>
                 <div className='single-container'>
                     <button
