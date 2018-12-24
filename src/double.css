@@ -1,0 +1,63 @@
+.main {
+    display: flex;
+}
+
+.textarea-en {
+    color: black;
+    margin: 2em 0em 1em 5em;
+    letter-spacing: 1px;
+    resize: none;
+    overflow: auto hidden;
+    overflow-y: scroll;
+    font-family: arial,sans-serif;
+    font-size: 16px;
+    box-shadow: 2px 5px 5px lightgrey;
+    box-sizing: border-box;
+}
+
+
+.textarea-ar {
+    color: black;
+    margin-left: auto;
+    margin: 2em 5em 1em 2em;
+    letter-spacing: 1px;
+    resize: none;
+    overflow: auto hidden;
+    overflow-y: scroll;
+    font-family: arial,sans-serif;
+    font-size: 16px;
+    box-shadow: 2px 5px 5px lightgrey;
+    box-sizing: border-box;
+    direction: rtl; 
+}
+
+#save {
+    position: fixed;
+    top: 85%;
+    left: 86.6%;
+    margin: 3.2em 2em 2em 2em;
+    width: 7em;
+    height: 3em;
+    box-shadow: 0 0 8px 0 rgba(17,22,26,.16),0 4px 8px 0 rgba(17,22,26,.08),0 8px 16px 0 rgba(17,22,26,.08);
+    background: rgba(245, 241, 241, 0.856);
+    border: 1px solid #47a3da;
+    color: #47a3da;
+    border-radius: .25rem;
+    font-weight: bold;
+    cursor: pointer;
+    letter-spacing: 1px;
+    text-align: center;
+    font-family: Open Sans,sans-serif;
+    font-weight: 600;
+}
+
+.google {
+    width: 50px;
+    height: 50px;
+    background-image: url('./img/translate.svg');
+    position: fixed;
+    left: 96%;
+    top: 30%;
+    cursor: pointer;
+
+}
