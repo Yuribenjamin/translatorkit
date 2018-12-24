@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom'
 import black from './img/black.svg'
 import white from './img/white.svg'
 import './main.css'
@@ -16,7 +17,7 @@ const Main = () => (
                         <div className='profile'>
                         <img src={white} alt='double-editor'></img>
                         </div>
-                        <h1><span>Single Editor</span></h1>
+                        <h1><span><Link to='/single'>Single Editor</Link></span></h1>
                     </div>
                     <div className="overlay"></div>
                 </div>
@@ -25,7 +26,7 @@ const Main = () => (
                         <div className='profile'>
                             <img src={black} alt='double-editor'></img>
                         </div>
-                        <h1><span>Double Editor</span></h1>
+                        <h1><span><Link to='/double'>Double Editor</Link></span></h1>
                     </div>
                     <div className="overlay"></div>
                 </div>

@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
-
+import arrow from './img/arrow.svg'
+import { Link } from 'react-router-dom'
 import './double.css'
 
 class Double extends Component {
@@ -32,6 +33,9 @@ class Double extends Component {
     render() {
         return(
             <main className='main'>
+                <div className='arrow'>
+                    <Link to='/'><img src={arrow} alt='arrow' width='25px' height='25px;'></img></Link>
+                </div>
                 <div className='tools'>
                 <button
                 type='button'

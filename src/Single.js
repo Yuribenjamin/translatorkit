@@ -1,4 +1,6 @@
 import React, { Component } from 'react'
+import arrow from './img/arrow.svg'
+import { Link } from 'react-router-dom'
 import './single.css'
 
 class Single extends Component {
@@ -30,6 +32,9 @@ class Single extends Component {
     render() {
         return(
             <main className='main-single'>
+                <div className='arrow'>
+                    <Link to='/'><img src={arrow} alt='arrow' width='25px' height='25px;'></img></Link>
+                </div>
                 <div className='single-container'>
                     <button
                     type='button'
@@ -43,7 +48,7 @@ class Single extends Component {
                     id="textarea-en"
                     className='textarea-single' 
                     name="en-text"
-                    rows="35" cols="80"
+                    rows="35" cols="90"
                     lang="en"
                     wrap="hard">
                     </textarea>
