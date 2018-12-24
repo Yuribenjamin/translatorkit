@@ -30,7 +30,6 @@ class Single extends Component {
     render() {
         return(
             <main className='main-single'>
-            <div className='google'></div>
                 <div className='single-container'>
                     <button
                     type='button'

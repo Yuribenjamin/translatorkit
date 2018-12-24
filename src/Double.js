@@ -32,9 +32,6 @@ class Double extends Component {
     render() {
         return(
             <main className='main'>
-            <div className='google'>
-                
-            </div>
                 <div className='tools'>
                 <button
                 type='button'
