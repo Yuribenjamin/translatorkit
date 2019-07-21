@@ -10,7 +10,7 @@ class App extends Component {
   render() {
     return (
       <div>
-        <Route exact path='/translatorkit' component={Main}/>
+        <Route exact path='/' component={Main}/>
         <Route exact path='/single' component={Single}/>
         <Route exact path='/double' component={Double}/>
       </div>
