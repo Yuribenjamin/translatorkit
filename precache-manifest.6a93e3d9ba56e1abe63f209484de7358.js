@@ -28,7 +28,7 @@ self.__precacheManifest = [
     "url": "/translatorkit/static/media/white.93a54c1f.svg"
   },
   {
-    "revision": "a304eb222e31829b0133b682d6366701",
+    "revision": "be0f65fa85d0895f9085bdede960b9db",
     "url": "/translatorkit/index.html"
   }
 ];
