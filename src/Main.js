@@ -27,12 +27,6 @@ const Main = () => (
                     <div className="overlay"></div>
                 </div>
                 <div className='side side-right'>
-                <header className='translateheader'>
-                        <p className="alert">Hello, this is Ibrahim Ragab. Thank you for using our service, the service started free and always will be free, Recently we gain more users using this beta service and we are looking for developing this service and give you best user experience.
-                            We open a donation to developing this service to give you the best service you deserve.
-                            use the button below to donate (minimum 1$) <strong>note: you can only donate by PayPal</strong></p>
-                            <button onClick={handleDonate} id="alertbtn">Donate</button>
-                    </header>
                     <div className='intro-content'>
                         <div className='profile'>
                             <img src={black} alt='double-editor'></img>
