@@ -1,7 +1,7 @@
 {
   "main.css": "/translatorkit/static/css/main.b6a9b868.chunk.css",
-  "main.js": "/translatorkit/static/js/main.77fc7bd3.chunk.js",
-  "main.js.map": "/translatorkit/static/js/main.77fc7bd3.chunk.js.map",
+  "main.js": "/translatorkit/static/js/main.778f3f61.chunk.js",
+  "main.js.map": "/translatorkit/static/js/main.778f3f61.chunk.js.map",
   "static/js/1.69358c01.chunk.js": "/translatorkit/static/js/1.69358c01.chunk.js",
   "static/js/1.69358c01.chunk.js.map": "/translatorkit/static/js/1.69358c01.chunk.js.map",
   "runtime~main.js": "/translatorkit/static/js/runtime~main.dd9386de.js",
@@ -11,6 +11,6 @@
   "static/media/white.svg": "/translatorkit/static/media/white.93a54c1f.svg",
   "static/css/main.b6a9b868.chunk.css.map": "/translatorkit/static/css/main.b6a9b868.chunk.css.map",
   "index.html": "/translatorkit/index.html",
-  "precache-manifest.1f1ffa8e3f3c861971a619fc029e4c14.js": "/translatorkit/precache-manifest.1f1ffa8e3f3c861971a619fc029e4c14.js",
+  "precache-manifest.f56afe120a6ce8457e7a37d3fe359d3c.js": "/translatorkit/precache-manifest.f56afe120a6ce8457e7a37d3fe359d3c.js",
   "service-worker.js": "/translatorkit/service-worker.js"
 }
