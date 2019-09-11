@@ -1,7 +1,7 @@
 {
-  "main.css": "/translatorkit/static/css/main.b6a9b868.chunk.css",
-  "main.js": "/translatorkit/static/js/main.b6b4811b.chunk.js",
-  "main.js.map": "/translatorkit/static/js/main.b6b4811b.chunk.js.map",
+  "main.css": "/translatorkit/static/css/main.04a75bed.chunk.css",
+  "main.js": "/translatorkit/static/js/main.670e39e7.chunk.js",
+  "main.js.map": "/translatorkit/static/js/main.670e39e7.chunk.js.map",
   "static/js/1.69358c01.chunk.js": "/translatorkit/static/js/1.69358c01.chunk.js",
   "static/js/1.69358c01.chunk.js.map": "/translatorkit/static/js/1.69358c01.chunk.js.map",
   "runtime~main.js": "/translatorkit/static/js/runtime~main.dd9386de.js",
@@ -9,8 +9,8 @@
   "static/media/arrow.svg": "/translatorkit/static/media/arrow.238a9f0c.svg",
   "static/media/black.svg": "/translatorkit/static/media/black.3b168bbe.svg",
   "static/media/white.svg": "/translatorkit/static/media/white.93a54c1f.svg",
-  "static/css/main.b6a9b868.chunk.css.map": "/translatorkit/static/css/main.b6a9b868.chunk.css.map",
+  "static/css/main.04a75bed.chunk.css.map": "/translatorkit/static/css/main.04a75bed.chunk.css.map",
   "index.html": "/translatorkit/index.html",
-  "precache-manifest.3179805ac0a1f3e12d2f14c145c0ebe0.js": "/translatorkit/precache-manifest.3179805ac0a1f3e12d2f14c145c0ebe0.js",
+  "precache-manifest.49e429e4272dfdf29a4add3e14ca1800.js": "/translatorkit/precache-manifest.49e429e4272dfdf29a4add3e14ca1800.js",
   "service-worker.js": "/translatorkit/service-worker.js"
 }
