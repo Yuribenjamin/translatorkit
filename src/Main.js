@@ -2,12 +2,9 @@ import React from 'react';
 import { Link } from 'react-router-dom'
 import black from './img/black.svg'
 import white from './img/white.svg'
+import donate from './img/donate.svg'
+import paypal from './img/paypal.svg'
 import './main.css'
-
-const handleDonate = () => {
-    const url = 'https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=29SM3BMERQDDY&source=url';
-    window.open(url)
-}
 
 const Main = () => (
     <div className='container'>
@@ -30,13 +27,18 @@ const Main = () => (
                     <div className="donation">
                         <div>
                             <p>Donate for continuous development</p>
-                            <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
-                                <input type="hidden" name="cmd" value="_s-xclick" />
-                                <input type="hidden" name="hosted_button_id" value="A8THPTEULHTHE" />
-                                <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" border="0" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Donate with PayPal button" />
-                                <img alt="" border="0" src="https://www.paypal.com/en_EG/i/scr/pixel.gif" width="1" height="1" />
-                            </form>
-                        </div>   
+                            <p>donation Available For PayPal Only</p>
+                            <img src={paypal} alt="paypal donate" width="50px"></img>
+                            <a href="https://www.paypal.com/paypalme2/abrahamragab" target="_blank" rel="noreferrer noopener">
+                            <img src={donate} alt="paypal donate" width="50px"></img>
+                            </a>
+                        </div>
+                        <div className="congrats">
+                        <p>Thanks!!!!</p>
+                        <p>Ahmed Abolmaged: 10$</p>
+                        <p>Mariel Haig: 5$</p>
+                        <p>Ahmed Moustaf: 3$</p>
+                        </div>
                     </div>
                     <div className='intro-content'>
                         <div className='profile'>
